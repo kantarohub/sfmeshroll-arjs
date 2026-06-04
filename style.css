@@ -1,0 +1,122 @@
+/* 基本設定 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* コンテナ */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* ヘッダー */
+.product-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* 使い方セクション */
+.how-to {
+    text-align: left;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.how-to h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.how-to ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.how-to li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* ボタン */
+.start-btn {
+    display: block;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.start-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+/* フッター */
+footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* マーカー表示エリアのスタイル */
+.marker-preview {
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    border: 2px dashed #ccc; /* 点線の枠で「ここを映す」感を出す */
+    border-radius: 10px;
+}
+
+.marker-preview p {
+    font-size: 0.85rem;
+    margin: 0 0 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.marker-img {
+    width: 120px; /* 小さめに表示 */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.marker-tip {
+    font-size: 0.75rem !important; /* 注意書きを小さく */
+    color: #888 !important;
+    margin-top: 10px !important;
+    font-weight: normal !important;
+}
