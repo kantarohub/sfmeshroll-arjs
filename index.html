@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SF Mesh roll - AR体験</title>
-    <!-- 外部CSSの読み込み -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,24 +15,31 @@
     </header>
 
     <main>
-        <!-- index.html の <section class="how-to"> の中を書き換え -->
-<section class="how-to">
-    <h3>使い方</h3>
-    <ol>
-        <li>下のボタンを押してカメラを起動します。</li>
-        <li>カメラの使用許可を「許可」にしてください。</li>
-        <li><strong>下のマーカー</strong>をカメラの枠内に収まるようにかざしてください。</li>
-    </ol>
+        <section class="how-to">
+            <h3>使い方</h3>
+            <ol>
+                <li>下のボタンを押してカメラを起動します。</li>
+                <li>カメラの使用許可を「許可」にしてください。</li>
+                <li><strong>下のマーカー</strong>をカメラの枠内に収まるようにかざしてください。</li>
+            </ol>
 
-    <h4>カメラ起動中にスクリーンショットで画像保存が可能です。</h4>
+            <h4>カメラ起動中にスクリーンショットで画像保存が可能です。</h4>
 
-    <!-- マーカー画像表示エリア -->
-    <div class="marker-preview">
-        <p>対象のマーカー：</p>
-        <img src="images/pattern-SFmeshroll.png" alt="ARマーカー" class="marker-img">
-        <p class="marker-tip">※この画像を印刷するか、別の画面に表示して読み取ってください。</p>
-    </div>
-</section>
+            <div class="marker-preview">
+                <p>対象のマーカー：</p>
+                <img src="images/pattern-SFmeshroll.png" alt="ARマーカー" class="marker-img">
+                <p class="marker-tip">※この画像を印刷するか、別の画面に表示して読み取ってください。</p>
+            </div>
+        </section>
+
+        <section class="ar-notes">
+            <h3>ご利用前の注意点</h3>
+            <ul>
+                <li><strong>推奨ブラウザ:</strong> 必ず <strong>Safari</strong>（iPhone）または <strong>Chrome</strong>（Android）で開いてください。</li>
+                <li><strong>SNSアプリからのアクセス:</strong> LINEやInstagram等のアプリ内画面ではAR機能が動きません。画面右上（または右下）にある「…（3点リーダー）」をタップし、「Safariで開く」または「ブラウザで開く」を選択してからお楽しみください。</li>
+                <li><strong>Android端末をご利用の方へ:</strong> 一部の機種では、初回のみGoogleのARアプリ（Google Play開発者サービス(AR)）のインストールを求められる場合があります。画面の指示に従って進めてください。</li>
+            </ul>
+        </section>
 
         <a href="ar.html" class="start-btn">ARカメラを起動する</a>
     </main>
